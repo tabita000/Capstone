@@ -1,0 +1,42 @@
+{
+  "configurations" : [
+    {
+      "id" : "23799099-1E1D-4EA0-AA0F-CDADF945E998",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ImageClassificationApp.xcodeproj",
+      "identifier" : "22164DB42C933A6F00043030",
+      "name" : "ImageClassificationApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ImageClassificationApp.xcodeproj",
+        "identifier" : "22164DC92C933A7000043030",
+        "name" : "ImageClassificationAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "selectedTests" : [
+        "ImageClassificationAppUITests\/testExample()",
+        "ImageClassificationAppUITests\/testLaunchPerformance()",
+        "ImageClassificationAppUITestsLaunchTests\/testLaunch()"
+      ],
+      "target" : {
+        "containerPath" : "container:ImageClassificationApp.xcodeproj",
+        "identifier" : "22164DD32C933A7000043030",
+        "name" : "ImageClassificationAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
